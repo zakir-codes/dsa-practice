@@ -5,7 +5,7 @@
 #         self.next = next
 class Solution:
     def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:
-        ## solution 1
+        ## solution 1 - Time O(N), Space - O(1)
         if not head:
             return head
         prev, cur, nex = None, head, head.next
