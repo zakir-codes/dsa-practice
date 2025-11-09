@@ -1,6 +1,6 @@
 class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
-        ## solution 1: 3 pointers Time O(N^2) Space O(N)
+        ## solution 1: 3 pointers Time O(N^2) Space O(N^3)
         res = []
         nums.sort()
         n = len(nums)
